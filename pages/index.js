@@ -8,7 +8,7 @@ import Date from '../components/date'
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <Head>
+      {/* <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
     </Layout>
   )
 }
